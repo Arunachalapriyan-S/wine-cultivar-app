@@ -1,0 +1,49 @@
+{
+  "features": [
+    "alcohol",
+    "malic_acid",
+    "total_phenols",
+    "flavanoids",
+    "color_intensity",
+    "proline"
+  ],
+  "classes": [
+    "Cultivar 1",
+    "Cultivar 2",
+    "Cultivar 3"
+  ],
+  "accuracy": 1.0,
+  "n_samples": 178,
+  "ranges": {
+    "alcohol": {
+      "min": 11.03,
+      "max": 14.83,
+      "default": 13.05
+    },
+    "malic_acid": {
+      "min": 0.74,
+      "max": 5.8,
+      "default": 1.87
+    },
+    "total_phenols": {
+      "min": 0.98,
+      "max": 3.88,
+      "default": 2.35
+    },
+    "flavanoids": {
+      "min": 0.34,
+      "max": 5.08,
+      "default": 2.13
+    },
+    "color_intensity": {
+      "min": 1.28,
+      "max": 13.0,
+      "default": 4.69
+    },
+    "proline": {
+      "min": 278.0,
+      "max": 1680.0,
+      "default": 673.5
+    }
+  }
+}
