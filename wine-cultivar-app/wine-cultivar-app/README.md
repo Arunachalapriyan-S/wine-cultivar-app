@@ -3,8 +3,7 @@
 An interactive web app that wraps a trained scikit-learn model. Move the sliders to enter a wine's
 chemical measurements and get a live prediction of its grape cultivar with class probabilities.
 
-**Live app:** _paste your Streamlit Community Cloud link here_
-
+**Live app:**
 ## Features
 - Streamlit interface with 6 sliders (ranges and defaults come from the training data)
 - Model loaded once with `joblib` and `@st.cache_resource`
